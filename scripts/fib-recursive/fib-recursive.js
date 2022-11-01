@@ -8,4 +8,8 @@ const fib = (n) => {
     } 
 }
 
-
+console.log("3: ", benchmark(fib(3)))
+console.log("7: ", benchmark(fib(7)))
+console.log("12: ", benchmark(fib(12)))
+console.log("20: ", benchmark(fib(20)))
+console.log("24: ", benchmark(fib(24)))
